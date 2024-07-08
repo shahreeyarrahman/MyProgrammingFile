@@ -1,0 +1,9 @@
+.buttonParent button:focus{
+    background-color: rgb(107, 57, 148);
+    color: white ;
+}
+.buttonParent button{
+    border-color: rgb(107, 57, 148);
+    color: rgb(107, 57, 148);
+    
+}

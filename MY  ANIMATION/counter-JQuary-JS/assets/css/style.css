@@ -1,0 +1,29 @@
+.counterBox{
+  width: 50px;
+  height: 50px;
+  border:1px solid ;
+  padding: 10px;
+  transform: rotate(47deg);
+  cursor: pointer;
+  background-color: black;
+  border-radius: 1px 4px;
+}
+.counterParent{
+  width: 200px;
+  border: solid;
+  background-color: red;
+  border-radius: 10px;
+}
+.hedingText{
+  margin-top: 20px;
+}
+.hedingText p{
+  text-transform: capitalize;
+
+}
+.counterLogo i {
+  transform: rotate(-47deg);
+}
+*{
+  color: white;
+}

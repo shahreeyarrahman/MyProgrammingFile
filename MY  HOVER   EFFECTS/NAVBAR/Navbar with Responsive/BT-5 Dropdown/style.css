@@ -1,0 +1,49 @@
+.customSearchIcone {
+    width: 350px;
+    height: auto;
+    background-color: rgb(211, 255, 107);
+    display: flex;
+   overflow: hidden;
+   border-radius: 50px;
+   padding: 5px;
+}
+.customSearchIcone ::placeholder {
+    color: rgb(9, 66, 253);
+    text-transform: capitalize;
+}
+*{
+    box-sizing: border-box;
+}
+.customSearchIcone input{
+   border: none;
+   background-color: transparent;
+   outline: none;
+   flex: 1;
+}
+/* satrt practice  */
+.customSearchIcone1 {
+    width: 50px;
+    height: auto;
+    background-color: rgb(211, 255, 107);
+    display: flex;
+   overflow: hidden;
+   border-radius: 50px;
+   padding: 5px;
+}
+.customSearchIcone1 input{
+   display: none;
+ }
+.customSearchIcone1:hover input{
+    display: block;
+    flex: 1;
+    transition: all 5s ease-in-out;
+    background-color: transparent;
+    outline: none;
+    border: none;
+ }
+.customSearchIcone1:hover{
+    width: 400px;
+    transition: all 2s;
+
+
+ }
