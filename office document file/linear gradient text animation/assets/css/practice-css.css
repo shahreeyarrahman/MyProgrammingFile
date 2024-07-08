@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapper h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left , #2e2271, #3498db,
+    #9b59b6, #e74c3c, #f39c12); 
+    -webkit-background-clip: text;
+    animation: animation 5s linear infinite;
+    -webkit-background-size:500%;
+    background-size: 500%;
+    color: transparent;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes animation{
+        0%{
+            background-position: 0 100%;
+        }
+        50%{
+            background-position: 100% 0;
+        }
+        100%{
+            background-position: 0 100%;
+        }
+}
