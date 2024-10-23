@@ -1,0 +1,207 @@
+<button class="brand btncustomize">
+			<i class='bx bx-menu' ></i>
+		</button>
+
+
+
+
+
+
+
+		developer section html 
+
+
+		<div class="row ">
+				<div class="col-lg-7  devolopersColOne">
+					<div class="customizeColWrapper ">
+					<div class="developersColWrapper">
+						<div class="devoloperText">
+						<div class="headingtext">
+							<p>Built by developers</p>
+							<h4>Purity UI Dashboard</h4>
+							<p>From colors, cards, typography to complex elements,
+								you will find the full documentation.</p>
+						</div>
+						
+						<div class="headingtext">
+							<div class="footertext">
+								<a href="#" id="jqbtn">Read more </a>
+								
+								<span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 12 12" fill="black">
+									<path d="M6.28125 2.625L9.65625 6L6.28125 9.375" stroke="white" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+									<path d="M9.1875 6.00024H2.34375" stroke="white" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+								  </svg></span>
+								  <br>
+								  <p id="jQuary">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eius velit totam quam, illo deleniti illum doloribus amet aspernatur assumenda officia placeat qui id quisquam maiores, voluptate voluptates sit blanditiis.
+								  </p>
+							</div>
+						</div>
+						</div>
+						<div class="imghere">
+							
+						</div>
+					</div>
+					</div>
+				</div>
+				<!--  -->
+				<div class="col-lg-5 devolopersColTwo ">
+					<div class="customizeColWrapper customizeColWrapper2">
+					<div class="developersColWrappertwo">
+						<!--  -->
+						<div class="devoloperText">
+							<div class="headingtext2">
+								<h4>Purity UI Dashboard</h4>
+								<p>From colors, cards, typography to complex elements,
+									you will find the full documentation.</p>
+							</div>
+							
+							<div class="headingtext">
+								<div class="footertext">
+									<a href="#" id="jqbtn2">Read more </a>
+									<span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 12 12" fill="none">
+										<path d="M6.28125 2.625L9.65625 6L6.28125 9.375" stroke="white" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M9.1875 6.00024H2.34375" stroke="white" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"/>
+									  </svg></span>
+									  <br>
+									  <p id="jQuary2">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eius velit totam quam, illo deleniti illum doloribus amet aspernatur assumenda officia placeat qui id quisquam maiores, voluptate voluptates sit blanditiis.
+									  </p>
+								</div>
+							</div>
+							</div>
+						<!--  -->
+					</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+developers css 
+
+
+#developers{
+    width: 97.5%;
+    /* min-height: 200px; */
+    margin: auto;
+  }
+  
+  .footertext a{
+    text-decoration: none;
+    color: white ;
+    color: #FFF;
+text-align: center;
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 15px */
+  }
+  .footertext a:hover{
+    color: var(--primary-color);
+  }
+  .footertext a:hover svg path{
+    fill: #48BB78 !important;
+
+  }
+  .headingtext p,h4{
+    padding: 0 !important;
+    margin: 10px 0px  !important;
+  }
+  .headingtext h4{
+    color: #919191;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+  }
+  .headingtext p{
+   max-width: 400px; 
+   color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+  }
+  .developersColWrapper{
+    margin: 0px;
+    height: 100%;
+    padding: 20px 15px;
+    /* border: 1px solid #000; */
+    background: #1D2126;
+    border-radius: 10px;
+  }
+  .imghere {
+  
+  }
+  .developersColWrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .devoloperText{
+    display: flex;
+    align-items: start;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 250px;
+  }
+
+  .developersColWrappertwo{
+    padding: 10px;
+    /* border: 1px solid #000; */
+    background: linear-gradient(145deg, rgba(18, 26, 148, 0.2),
+     rgba(0, 0, 0, 0.6)),url(../image/dashboard-screen-img/metting-img-1.png) no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    
+  }
+  .headingtext2 h4{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+  }
+  .headingtext2 p{
+    max-width: 400px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+  }
+
+  
+  #jQuary{
+    display:none ;
+  }
+  .addClass{
+    display:block ;
+  }
+  #jQuary2{
+    display:none ;
+  }
+  .addClass{
+    display:block ;
+  }
+
+
+
+
+
+
+
+
+
+			

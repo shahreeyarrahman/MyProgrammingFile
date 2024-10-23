@@ -1,0 +1,392 @@
+/* font family  */
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/helvetica-light-587ebe5a59211.ttf);
+  }
+  
+  :root {
+    --primary-color: #4fd1c5;
+    --secondary-color: #718096;
+    --lable-color: #c4c4c4;
+    --placholder-color: #a0aec0;
+    --common-white: #ffffff;
+    --common-black: #000000;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+
+  /* CONTENT */
+  #content{
+    background: black !important;
+    padding: 10px 0 !important;
+    min-height: 100vh !important;
+  }
+/* CONTENT */
+
+  /* START CARD SECTION */
+
+  #cardContent{
+    width: 99%;
+    min-height: 300px;
+    /* border: 1px solid #691111; */
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  #cardWrapper > div{
+    /* border: 1px solid #000; */
+    background: #1D2126;
+    width: 400px;
+    min-height: 350px;
+    flex-grow: 1;
+    border-radius: 12px ;
+  }
+  #cardWrapper {
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 15px;
+   
+  }
+  #cardOne,#cardTwo,#cardThree {
+    padding: 20px ;
+  }
+  #cardOne ul li {
+    list-style: none;
+  }
+ .text h4 {
+    color: #FFF;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+  }
+  #cardOne p {
+    color: var(--Gray-Gray-400,  #718096);
+font-family: Helvetica;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 15px */
+margin: 10px 0px !important;
+  }
+
+  .form-check-input {
+    background-color: var(--common-white) !important;
+    border-color:transparent !important;
+}
+  .form-check-input:checked {
+    background-color: var(--primary-color) !important;
+    border-color:transparent !important;
+}
+  .form-check-input:focus {
+    box-shadow: none !important;
+}
+.form-switch label {
+  color: var(--Gray-Gray-500, #718096);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+}
+.form-switch {
+  margin: 5px 0px ;
+}
+
+#cardTwo p {
+  color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 15px */
+margin: 10px 0px !important;
+}
+#cardTwo hr{
+  /* color: red !important; */
+  height: 2px !important;
+  background:radial-gradient(circle,rgba(255, 255, 255,.9) 60%,rgba(99, 99, 99, 0.9));
+  border: none !important;
+  margin: 30px 0px ;
+}
+
+#cardTwo form label{
+  color: var(--Gray-Gray-500, #718096);
+font-family: Helvetica;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+margin: 5px 0px ;
+}
+#cardTwo form span {
+  color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 13px !important;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+#cardTwo form svg {
+  margin: auto 2px;
+  transition: all .2s ease-in-out;
+  
+}
+#cardTwo form svg:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.clintContent img {
+  border-radius: 10px ;
+  width: 50px;
+}
+.contentText h5 {
+  color: #C4C4C4;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+}
+.contentText p {
+  color: var(--Gray-Gray-500, #718096);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 19.6px */
+}
+.clintContent{
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  align-content: center;
+}
+.cardLink a{
+  color: var(--Teal-Teal-300, #4FD1C5);
+text-align: center;
+font-family: Helvetica;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 15px */
+text-decoration: none;
+}
+#clintOne {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+#conversationListWrapper{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 8px;
+}
+  /* END CARD SECTION */
+
+
+  /* START PROJECT SECTION */
+  
+  #project{
+    width: 99%;
+    min-height: 450px;
+    /* border: 1px solid #691111; */
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background: #1D2126;
+  }
+
+  .projectCardCol{
+    height: 400px;
+  }
+
+  #projectHeadingText h4 {
+    color: #FFF;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+  }
+#projectHeadingText p {
+    color: var(--Gray-Gray-400,  #718096);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 15px */
+margin: 10px 0px !important;
+  }
+
+
+  #project .card{
+    margin: 0 !important;
+    background-color: #1D2126 !important;
+    height: 400px !important;
+    border: none !important;
+    /* border: 1px solid white !important; */
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(221, 221, 221, 0.1);
+  }
+  .projectColWrapper .card p{
+    color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 15px */
+
+  }
+  .projectColWrapper .card h4{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+    margin: 10px 0px !important;
+  }
+  .projectColWrapper .card button{
+    display: flex;
+    width: 110.5px;
+    height: 35px;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+border: 1px solid var(--Teal-Teal-300, #4FD1C5);
+background: transparent !important;
+
+color: var(--Teal-Teal-300, #4FD1C5);
+text-align: center;
+font-family: Helvetica;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 15px */
+transition: all .2s ease-in-out !important;
+  }
+  .projectColWrapper .card button:hover{
+background: #4FD1C5 !important;
+color: white !important;
+  }
+
+
+  .cardBtn{
+    position: relative;
+    margin: 20px 0px !important;
+  }
+  .cardMiniImg > img {
+    width: 37px;
+height: 37px;
+flex-shrink: 0;
+border-radius: 50%;
+border: 3px solid white;
+position: absolute;
+top: 0;
+right: 0;
+  }
+  .cardMiniImg img:nth-child(1) {
+    width: 37px;
+height: 37px;
+flex-shrink: 0;
+border-radius: 50%;
+border: none !important;
+position: absolute;
+top: 0;
+right: 45px;
+  }
+  .cardMiniImg img:nth-child(2) {
+    width: 37px;
+height: 37px;
+flex-shrink: 0;
+border-radius: 50%;
+border: 3px solid white;
+position: absolute;
+top: 0;
+right: 30px;
+  }
+  .cardMiniImg img:nth-child(3) {
+    width: 37px;
+height: 37px;
+flex-shrink: 0;
+border-radius: 50%;
+border: 3px solid white;
+position: absolute;
+top: 0;
+right: 15px;
+  }
+  #projectCardWrapper .card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 15px !important;
+  }
+  .projectCardCol .card-img-top {
+    border-radius: 15px !important;
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover;
+  }
+
+.projectCardCol .card .card-img-top {
+ filter: brightness(70%);
+}
+
+
+#project .addcard{
+  width: 100%;
+  height: 400px !important;
+  background-color: #1D2126 !important;
+  border: 1px solid white !important;
+  border-radius: 10px !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: none !important; */
+}
+#project .addcard h1 {
+  color: white !important;
+font-family: Helvetica;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+}
+#project .addcard  h5 {
+  color: white !important;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+}
+#project .addcard  a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.card-body p,h4 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+  /*  END PROJECT SECTION */

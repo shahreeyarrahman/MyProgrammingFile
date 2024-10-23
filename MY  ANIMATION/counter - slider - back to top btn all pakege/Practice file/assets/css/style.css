@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.text{
+    padding: 50px 0px ;
+}
+
+.owl-carousel img {
+    height: 200px ;
+    object-fit: cover;
+    margin: 40px 0px ;
+}
+
+.owl-carousel .owl-next span {
+    font-size: 100px  !important;
+}
+
+/* back to top bnt css  */
+/* styles.css */
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 15px 17px ;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: #62ff00;
+}
+.parent{
+    display: grid;
+    place-items: center;
+    padding: 30px ;
+}
+.counterSection{
+    width: 100px ;
+    height: 100px;
+    background-color: red;
+    display: grid;
+    place-items: center ;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    transition: all .2s ease-in-out;
+}
+
+#sidebar{
+    width: 100px;
+    min-height: 100vh;
+    border: 1px solid #000;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+#content{
+    /* width: calc(100%-300px); */
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid #ff0000;
+    
+}
+#btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.shortSidebar{
+    width: 400px !important;
+    min-height: 100vh;
+    background-color: rgb(4, 145, 145);
+}
+
+#mainParent{
+    min-height: 100vh !important;
+}
+#content > div {
+    width: 90%;
+    height: 200px;
+    margin: 20px auto
+}
+
+.MyOffcanvas{
+    display: none ;
+}
+
+.offcanvas{
+    margin-top: 100px !important;
+}
+
+@media screen and (max-width:768px){
+    #sidebar{
+        display: none;
+    }
+    .MyOffcanvas{
+        display: block;
+    }
+}

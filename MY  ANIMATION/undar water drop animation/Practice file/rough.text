@@ -1,0 +1,51 @@
+
+
+      opacity: 0;
+  transform: translateY(40px);
+  animation: moveup .7s linear forwards;
+  font-size: 70px !important;
+  
+ }
+
+/* @keyframes moveup {
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+} */
+
+
+ <link rel="stylesheet" href="./assets/css/style.css">
+
+
+ <!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Input Label Animaton | CoderGirl</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="input-field">
+    <input type="text" required spellcheck="false"> 
+    <label>Enter email</label>
+  </div>
+</body>
+</html>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../JS/assets/Js/app.js">
+
+
+jquery 
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

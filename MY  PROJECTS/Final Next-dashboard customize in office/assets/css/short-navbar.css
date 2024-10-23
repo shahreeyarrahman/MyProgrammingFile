@@ -1,0 +1,309 @@
+/* font family  */
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/Helvetica.ttf);
+  }
+  
+  :root {
+    --primary-color: #4fd1c5;
+    --secondary-color: #718096;
+    --lable-color: #c4c4c4;
+    --placholder-color: #a0aec0;
+    --common-white: #ffffff;
+    --common-black: #969191;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: var(--primary-font) !important;
+    /* border: 1px solid #000; */
+  }
+
+  /* START MAIN NAVBAR SECTION  */
+  #mainNavbar{
+    width:99%;
+    height: 80px ;
+    background: #1D2126;
+    margin: auto;
+    border-radius: 12px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box !important;
+  }
+  
+  #navbarParent{
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    align-content: center;
+    /* border: 1px solid #000; */
+    justify-content: space-between;
+    /* margin: 10px 0px ; */
+    /* z-index: -1 !important; */
+    /* background-color: red; */
+  }
+ 
+  .childnav ol li a {
+    color: var(--black-amp-white-white, #FFF);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 18px */
+letter-spacing: 1px !important;
+text-decoration: none;
+transition: .2s ease-in-out;
+    
+  } 
+  .childnav  {
+   padding: 0px 10px !important;
+    
+  } 
+  .childnav ol  {
+   margin: 0px 0px 10px !important;
+    
+  } 
+ 
+  .childnav ol li a  {
+ font-size: 10px !important;
+    
+  } 
+ 
+  .childnav ol span{
+    color: var(--black-amp-white-white, #FFF);
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 18px */
+margin:2px 10px 0px  10px ;
+  } 
+  .childnav ol + p{
+    color: var(--black-amp-white-white, #FFF);
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: 1px !important;
+  } 
+
+
+  /* copy */
+  
+#inputParent{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-radius: 30px;
+  background-color: white;
+  
+  }
+  #inputParent input{
+    border: none;
+    border-radius: 30px !important;
+    background-color: transparent !important;
+    padding:5px 10px !important;
+    font-size: 16px ;
+    
+  }
+  #inputParent input:focus{
+    box-shadow: none !important;
+    border: none  !important;
+    outline: none !important;
+    font-size: 16px ;
+  }
+  #inputParent input::placeholder{
+    margin-left: 20px !important;
+    font-size: 14px;
+  }
+  #inputParent i{
+    padding: 0px 0px 0px 8px  ;
+  }
+  
+  
+  @media screen and (max-width:992px) {
+    .navContentChild{
+      width: 97%;
+      height: auto;
+      margin: auto;
+      padding: 10px ;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-radius: 12px ;
+      margin-top: -90px ;
+    border: 1.5px solid #FFF;
+    background: linear-gradient(113deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.80) 110.84%);
+    box-shadow: 0px 2px 5.5px 0px rgba(0, 0, 0, 0.02) !important;
+    backdrop-filter: blur(10.499999046325684px);
+    }
+    .navContentChildTwo {
+      margin: 20px 0 0 0 ;
+      }
+  }
+  
+  @media screen and (max-width:768px) {
+    #inputParent{ 
+      display: none !important;
+    }
+    #magnifireIcon{
+      display: inline !important;
+    }
+  
+    #navbarParent{
+      width: 100%;
+      height: 60px;
+      display: flex !important;
+      align-items: center;
+      align-content: center;
+      /* border: 1px solid #000; */
+      justify-content: space-between;
+      /* margin: 10px 0px ; */
+      
+    }
+    .navbarBrand{ 
+      display: none !important;
+    }
+  
+  }
+  @media screen and (max-width:576px) {
+    #mainNavbar{
+      width:99%;
+      /* height: auto ; */
+      /* background:url(../img/navbar/navbar-img-1.png), var(--primary-color); */
+      margin: auto;
+      border-radius: 12px;
+      position: relative;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      box-sizing: border-box !important;
+
+    }
+  }
+  
+  #magnifireIcon{
+    display: none;
+    color: white;
+    font-size: 18px ;
+  }
+  #magnifireIcon:hover{
+   color: black;
+  }
+  /* end copy */
+
+  .navbarContent{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px ;
+  }
+
+  .navIcon a  {
+    font-size: 16px ;
+    text-decoration: none;
+    color: var(--common-white);
+    margin: 0px 5px;
+    transition: all .2s ease-in-out;
+  }
+  .navIcon a:hover  {
+    color: var(--primary-color);
+  }
+  .navIcon a i {
+    font-size: 18px ;
+    padding: 0px 5px ;
+  }
+
+  .childnav ol a:hover {
+    color: var(--primary-color);
+  }
+
+  /* END MAIN NAVBAR SECTION  */
+
+
+
+  
+
+/* start sidebar Responsive code  */
+
+#offcanvas{
+  display: none;
+}
+.offcanvas{
+  width: 300px !important;
+  background-color: rgb(0, 0, 0) !important;
+  color: white !important;
+}
+
+
+@media screen and (max-width:768px) {
+
+  #offcanvas{
+    display: block;
+  }
+
+  #sidebar{
+    display: none !important;
+  }
+  
+  #content{
+    width: 100% !important;
+  }
+  
+  main{
+    width: 100% !important;
+  }
+
+  #content {
+    position: relative;
+    width: auto;
+    left: 0px;
+    transition: .3s ease;
+  }
+  #sidebar.hide ~ #content {
+    width: auto;
+    left: 0px;
+  }
+  
+  }
+
+  
+.offcanvas-body ul li a{
+  display: flex;
+  /* border: 1px solid #000; */
+  text-decoration: none;
+  padding: 10px 0px ;
+  transition: all .2s ease-in-out;
+  color: #b6b6b6;
+  font-weight: bold;
+}
+.offcanvas-body ul li a:hover{
+  background-color:var(--primary-color) !important;
+  color: white;
+}
+.offcanvas-body ul li a:hover svg path{
+  fill: white;
+}
+
+.offcanvas-body ul li {
+  margin: 15px 0px ;
+}
+
+.btn-close {
+  color: white !important;
+}
+.closeBtn{
+  border: none !important;
+  outline: none !important;
+  background-color: transparent !important;
+}
+
+/* end sidebar Responsive code  */
+

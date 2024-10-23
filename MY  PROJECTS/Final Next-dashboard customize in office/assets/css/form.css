@@ -1,0 +1,515 @@
+/* font family  */
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/helvetica-light-587ebe5a59211.ttf);
+  }
+  
+  :root {
+    --primary-color: #4fd1c5;
+    --secondary-color: #718096;
+    --lable-color: #c4c4c4;
+    --placholder-color: #a0aec0;
+    --common-white: #ffffff;
+    --common-black: #000000;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+/* 
+  #content{
+    background-color: black;
+  } */
+
+  /* START MULTIPLE CARD SECTION  */
+  #multipleCard{
+    width: 99%;
+    margin: 15px auto;
+    /* border: 1px solid #ff1a1a; */
+    min-height: 500px;
+    /* padding: 10px ; */
+  }
+  .multipleColWrapper{
+    min-height: 500px;
+  }
+  .cardChildOne{
+    height: 260px;
+    border-radius: 12px;
+background: linear-gradient(83deg, #4FD1C5 2.28%, #2684FF 100%);
+/* position: relative; */
+padding: 20px ;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+  }
+
+  .cardChildTwo{
+    height: 260px;
+    border-radius: 15px;
+background: #1D2126;
+box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: space-evenly;
+flex-direction: column;
+  }
+
+  .circle > div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .circle .circleOne {
+    position: absolute;
+    top: 0;
+    right: 15px ;
+  }
+  .agencyCard{
+    position: relative;
+  }
+  .agencyCard h2{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+  }
+
+  .cardNumber  h3{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 33.6px */
+  }
+
+  .cardNumber span{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 15px */
+  }
+  .cardNumber p{
+   margin: 0 !important;
+  }
+  .cardNumber .cardBoldText span{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+  }
+
+  .cardChildTwo .svgWrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:var(--primary-color);
+    display: grid;
+    place-items: center;
+  }
+  .childTwoText{
+    color: white;
+    margin: 10px 0px ;
+  }
+  .childTwoText h2 {
+    color: #FFF;
+text-align: center;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+  }
+
+  .childTwoText p {
+    color: var(--Gray-Gray-400, #A0AEC0);
+text-align: center;
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+margin: 0 !important;
+  }
+
+  .footerCard{
+    height:250px;
+    margin: 15px 0px ;
+    border-radius: 15px;
+background: #1D2126;
+box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+padding: 10px ;
+  }
+
+  .paymentMethodText{
+    color: white;
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .paymentMethodText h3{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+  }
+  .paymentMethodText button{
+    color: var(--black-amp-white-white, #FFF);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 15px */
+    background-color: var(--primary-color);
+    padding:8px 20px ;
+    border: none;
+    border-radius: 6px ;
+  }
+
+  .inputOne{
+    background-color: white;
+    display: inline-block;
+    padding: 8px 20px ;
+    border-radius: 10px ;
+    margin: 15px ;
+  }
+  .inputOne input{
+  width: 400px;
+    border: none !important;
+    padding: 10px ;
+    font-size: large;
+  }
+  .inputOne input:focus{
+   box-shadow: none !important;
+   border: none !important;
+   outline: none !important;
+  }
+  .paymentInput{
+   text-align: center;
+   margin-top: 40px;
+  }
+
+  /* col 2 */
+
+ 
+
+  .invoiceText{
+      /* border: 1px solid #000; */
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: space-between;
+      padding-bottom: 20px;
+  }
+  .multipleColWrapperTwo{
+    padding: 20px;
+    border-radius: 15px;
+background: #1D2126;
+box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+height: 96%;
+  }
+  .invoiceText h4{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+  }
+  .invoiceText button{
+    color: var(--Teal-Teal-300, #4FD1C5);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 15px */
+    padding: 10px 20px ;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    transition: all.2s ease-in-out;
+  }
+  .invoiceText button:hover{
+    background: var(--primary-color);
+    color: white !important;
+  }
+  .invoiceTextOne  p{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .invoiceTextTwo  p{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .invoiceTextOne p:first-child{
+    color: #919191;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+  }
+  .invoiceTextOne p:last-child{
+    color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+  }
+  .invoiceList{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 25px ;
+  }
+  .invoiceTextTwo{
+    display: flex;
+  }
+  .invoiceTextTwo p:first-child{
+    color: var(--Gray-Gray-400, #A0AEC0);
+text-align: right;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+padding: 1px 20px !important ;
+  }
+
+  .invoiceTextTwo span{
+    color: #C4C4C4;
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 15px */
+padding: 5px;
+  }
+  /* END MULTIPLE CARD SECTION  */
+
+
+  /* START INFORMATION SECTION  */
+  #information{
+    width: 99%;
+    margin: auto;
+    padding-bottom: 20px;
+    /* border: 1px solid #b80606; */
+    min-height: 400px;
+  }
+ 
+  .informationColWrapperOne{
+    /* border: 1px solid #ffffff; */
+    height: 100%;
+    padding: 20px ;
+    border-radius: 15px;
+background: #1D2126;
+box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+  }
+  .informationText h4{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+margin: 10px 0px;
+  }
+  .informationCard{
+    min-height: 100px ;
+    background-color: rgb(255, 255, 255);
+    padding: 20px ;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px ;
+  }
+  .informationCardText h4 {
+    color: var(--Gray-Gray-500, #718096);
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+  }
+  .informationCardText ul li {
+    color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 18px */
+margin: 5px 0px ;
+  }
+  .informationCardText ul li strong {
+    color: var(--Gray-Gray-500, #718096);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+  }
+
+  .option {
+      display: flex;
+      gap: 20px ;
+  }
+  .option p svg{
+     margin: 0px 5px ;
+  }
+  .option p:first-child {
+    color: var(--Red-Red-500, #E53E3E);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 15px */
+  }
+  .option p:last-child {
+    color: var(--Gray-Gray-700, #2D3748);
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 15px */
+  }
+
+  /* col-2 */
+
+  .informationColWrapperTwo{
+    /* border: 1px solid #ffffff; */
+    height: 100%;
+    padding: 20px ;
+    border-radius: 15px;
+background: #1D2126;
+box-shadow: 0px 3.5px 5.5px 0px rgba(0, 0, 0, 0.02);
+  }
+  .transactionText{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .transactionText h4{
+    color: #FFF;
+font-family: Helvetica;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+  }
+  .transactionText p{
+    color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+  }
+
+  .newEst h4{
+    color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 15px */
+margin-bottom: 20px ;
+  }
+  .newEstList {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 25px 0px ;
+    
+  }
+  .newEstList .newEstIcon {
+    width: 40px ;
+    height: 40px;
+    border: 1px solid #ff0000;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    
+  }
+  .newEstText h4, p{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .newEstText h4{
+    color: #919191;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+  }
+  .newEstText p{
+    color: var(--Gray-Gray-400, #A0AEC0);
+font-family: Helvetica;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+  }
+  .newEstListWrapper{
+    display: flex;
+    gap: 20px ;
+  }
+  .newEstCurrency h4 {
+    color: var(--Red-Red-500, #E53E3E);
+text-align: right;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 19.6px */
+  }
+
+  .newEstList .newEstIcon2 {
+    width: 40px ;
+    height: 40px;
+    border: 1px solid  #48BB78;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    
+  }
+  .newEstList .newEstIcon3 {
+    width: 40px ;
+    height: 40px;
+    border: 1px solid   #ECB22E;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    
+  }
+
+  .newEstYesterday{
+    margin: 50px 0px ;
+  }
+
+  /* END INFORMATION SECTION  */

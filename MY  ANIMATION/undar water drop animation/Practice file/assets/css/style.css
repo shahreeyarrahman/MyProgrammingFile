@@ -1,0 +1,70 @@
+
+body{
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  background: url(/pexels-earano-1350197.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#box img{
+  position: absolute;
+  bottom: -10vh;
+  left: 5%;
+  animation: bubble linear infinite 2s;
+}
+#box img:nth-child(1){
+  position: absolute;
+  bottom: -10vh;
+  left: 20%;
+  animation: bubble linear infinite 2s;
+  animation-delay: 1s;
+}
+#box img:nth-child(2){
+  position: absolute;
+  bottom: -10vh;
+  left: 40%;
+  animation: bubble linear infinite 2s;
+  animation-delay: 2s;
+}
+#box img:nth-child(3){
+  position: absolute;
+  bottom: -10vh;
+  left: 60%;
+  animation: bubble linear infinite 2s;
+  animation-delay: 3s;
+}
+#box img:nth-child(4){
+  position: absolute;
+  bottom: -10vh;
+  left: 80%;
+  animation: bubble linear infinite 2s;
+  animation-delay: 2s;
+}
+
+
+@keyframes bubble {
+  0%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  50%{
+    
+    opacity: 1;
+  }
+  70%{
+    
+    opacity: 1;
+  }
+  90%{
+    
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+  
+}

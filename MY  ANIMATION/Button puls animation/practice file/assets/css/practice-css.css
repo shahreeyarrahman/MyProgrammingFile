@@ -1,0 +1,43 @@
+    
+        
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pulse-center-item {
+	background-color: transparent;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	
+	position: relative;
+	z-index: 90;
+  display: grid;
+  place-items: center;
+  font-size: auto;
+  cursor: pointer;
+}
+.pulse-circle {
+	border-radius: 50%;
+	background-color: #ceb0ff;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	opacity: 0;
+	animation: scaleIn 3s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+}
+
+@keyframes scaleIn {
+	from {
+		transform: scale(0.5, 0.5);
+		opacity: 0.5;
+	}
+	to {
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}
+

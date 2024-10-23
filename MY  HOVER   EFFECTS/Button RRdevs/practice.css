@@ -1,0 +1,46 @@
+
+.BookNowButton{
+    width: 300px;
+    background-color:#051145;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    border: solid 1px red ;
+    padding: 20px;
+}
+
+.BnBChildOne{
+    width: 100%;
+    height: 100%;
+    background-color:#1b7261;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+    opacity: .5;
+}
+
+.BnBChildTwo{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  border: solid 2px #213f37;
+}
+
+.BookNowButton:hover .BnBChildOne{
+    width: 0%;
+    cursor: pointer;
+}
+
+.BookNowButton:hover .BnBChildTwo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .3s ease-in-out;
+}

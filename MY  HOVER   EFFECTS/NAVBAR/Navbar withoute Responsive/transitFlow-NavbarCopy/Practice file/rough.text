@@ -1,0 +1,15 @@
+
+
+      opacity: 0;
+  transform: translateY(40px);
+  animation: moveup .7s linear forwards;
+  font-size: 70px !important;
+  
+ }
+
+/* @keyframes moveup {
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+} */
